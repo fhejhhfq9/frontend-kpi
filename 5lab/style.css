@@ -1,0 +1,53 @@
+body {
+    font-family: Arial;
+    margin: 40px;
+}
+
+form {
+    width: 350px;
+}
+
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.error {
+    border: 2px solid red;
+    background-color: #ffe5e5;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+   
+}
+
+td {
+    width: 60px;
+    height: 60px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#colorPicker {
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 10px;
+    background: none;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
